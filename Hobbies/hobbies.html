@@ -154,8 +154,21 @@
             </div>
         </div>
 
-        <button id="startButton">Start</button>
+        <button id="startButton" class="btn btn-warning display-7">Start</button>
+
+<a id="startLink" class="d-none" href="Forms/forms.html" target="_blank">Start Now</a>
     </div>
+
+<script>
+    document.getElementById("startButton").addEventListener("click", function() {
+        if (selectedHobbies.length > 0) {
+            document.getElementById("startLink").click(); // Trigger the link click programmatically
+        } else {
+            alert("Please select at least one hobby to continue.");
+        }
+    });
+</script>
+
 
     <script src="hobbyscript.js"></script>
 </body>
