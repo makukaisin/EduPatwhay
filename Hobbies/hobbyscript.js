@@ -29,7 +29,7 @@ document.getElementById("startButton").onclick = function() {
 
     // If there are selected hobbies, navigate to forms.html
     if (selectedHobbies.length > 0) {
-        window.location.href = "Forms/forms.html"; // Redirect to forms.html
+        window.location.href = "https://makukaisin.github.io/EduPatwhay/Forms/forms.html"; 
     } 
 };
 
