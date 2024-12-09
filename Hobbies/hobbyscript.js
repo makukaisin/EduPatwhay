@@ -27,9 +27,9 @@ document.getElementById("startButton").onclick = function() {
         selectedHobbies.push(checkbox.id.replace(/([A-Z])/g, ' $1').toLowerCase());
     });
 
-     if (selectedHobbies.length > 0) {
-            document.getElementById("startLink").click(); // Trigger the link click programmatically
-        }// If there are selected hobbies, navigate to forms.html
-
+    // If there are selected hobbies, navigate to forms.html
+    if (selectedHobbies.length > 0) {
+        window.location.href = "https://makukaisin.github.io/EduPatwhay/Forms/forms.html"; // Correct path if Forms is inside Hobbies
+    }
 };
 
