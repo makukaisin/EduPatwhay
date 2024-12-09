@@ -27,7 +27,9 @@ document.getElementById("startButton").onclick = function() {
         selectedHobbies.push(checkbox.id.replace(/([A-Z])/g, ' $1').toLowerCase());
     });
 
-    // If there are selected hobbies, navigate to forms.html
+     if (selectedHobbies.length > 0) {
+            document.getElementById("startLink").click(); // Trigger the link click programmatically
+        }// If there are selected hobbies, navigate to forms.html
 
 };
 
