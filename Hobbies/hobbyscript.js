@@ -29,10 +29,7 @@ document.getElementById("startButton").onclick = function() {
 
     // If there are selected hobbies, navigate to forms.html
     if (selectedHobbies.length > 0) {
-        window.location.href = "http://127.0.0.1:5501/Forms/forms.html"; // Redirect to forms.html
-    } else {
-        // Optional: If you want to inform the user without alert, you can display a message here.
-        console.log("Please select at least one hobby.");
-    }
+        window.location.href = "/Forms/forms.html"; // Redirect to forms.html
+    } 
 };
 
