@@ -28,8 +28,6 @@ document.getElementById("startButton").onclick = function() {
     });
 
     // If there are selected hobbies, navigate to forms.html
-    if (selectedHobbies.length > 0) {
-        window.location.href = "https://makukaisin.github.io/EduPatwhay/Forms/forms.html"; 
-    } 
+
 };
 
